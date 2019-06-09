@@ -1,0 +1,9 @@
+## YAML Template.
+---
+kafka:
+    bootstrap:
+        servers: localhost:9092
+    consumer:
+        groupID: test-consumer-group
+server:
+    port: 9000
